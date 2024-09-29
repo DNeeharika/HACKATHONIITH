@@ -3,12 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Management System</title>
+    <title>SPOTBOOK</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional CSS for the layout */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        nav {
+            margin-left: auto;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: auto;
+            margin-right: 15px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Event Management System</h1>
+        <!-- Left corner image logo -->
+        <div class="logo">
+            <img src="img.jpg" alt="Logo">
+            <h1>SPOTBOOK</h1>
+        </div>
+        <!-- Right corner navigation buttons -->
         <nav>
             <a href="signup.html">Sign Up</a>
             <a href="login.html">Login</a>
