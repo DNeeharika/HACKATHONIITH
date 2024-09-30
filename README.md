@@ -8,3 +8,4 @@ Team Members
 - Hruday
 - Nithyanand
 - Arijit.K
+- Syed Ifran Shoaib
